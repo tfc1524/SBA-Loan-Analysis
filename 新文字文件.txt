@@ -1,0 +1,38 @@
+data = df_copy.groupby(by=['DisbursementDate_year', 'LowDoc']).mean()
+data_long = data.melt(ignore_index=False).reset_index()
+data_def = data_long[data_long['variable'] == 'Default']
+
+data_def = data_def[data_def['DisbursementDate_year'] >= 1972]
+data_def[['DisbursementDate_year', 'LowDoc']] = data_def[['DisbursementDate_year', 'LowDoc']].applymap(lambda x: int(x))
+data_def.head(3)
+
+year_list = list(df_groupby_mean['ApprovalDate_year'][~(df_copy.groupby(by='ApprovalDate_year').size().values < 30)].index)
+
+data = pd.DataFrame(df_copy.groupby(by=['DisbursementDate_year', 'LowDoc']).size()).reset_index()
+data.rename(columns={0: 'count'}, inplace=True)
+data = data[data['DisbursementDate_year'] >= 1972]
+data[['DisbursementDate_year', 'LowDoc']] = data[['DisbursementDate_year', 'LowDoc']].applymap(lambda x: int(x))
+data.head(3)
+
+plt.figure(figsize=(20,22))
+
+num = 'Default'
+
+plt.subplot(2, 1, 1)
+plt.title('Mean {} by DisbursementDate_year_LowDoc'.format(num))
+plt.grid(True)
+plt.vlines(x=[2006.0], ymin=data_def['value'].min(), ymax=data_def['value'].max(), color='r', linestyles='dashed')
+sns.lineplot(data=data_def, x=data_def['DisbursementDate_year'], y=data_def['value'], marker=True, hue='LowDoc',
+             palette="flare")
+plt.legend(title='LowDoc', fontsize=20, title_fontsize=20)
+
+plt.subplot(2, 1, 2)
+plt.title('Size by DisbursementDate_year_LowDoc'.format(num))
+plt.grid(True)
+plt.vlines(x=[2006.0], ymin=data['count'].min(), ymax=data['count'].max(), color='r', linestyles='dashed')
+sns.lineplot(data=data, x=data['DisbursementDate_year'], y=data['count'], marker=True, hue='LowDoc',
+             palette="flare")
+plt.legend(title='LowDoc', fontsize=20, title_fontsize=20)
+
+plt.show()
+
