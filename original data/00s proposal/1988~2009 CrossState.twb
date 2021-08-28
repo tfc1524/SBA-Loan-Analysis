@@ -1,0 +1,1429 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20212.21.0712.0907                               -->
+<workbook original-version='18.1' source-build='2021.2.1 (20212.21.0712.0907)' source-platform='win' version='18.1' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SheetIdentifierTracking />
+    <WindowsPersistSimpleIdentifiers />
+  </document-format-change-manifest>
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <_.fcp.AnimationOnByDefault.false...style>
+    <_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule element='animation'>
+      <_.fcp.AnimationOnByDefault.false...format attr='animation-on' value='ao-on' />
+    </_.fcp.AnimationOnByDefault.false..._.fcp.MarkAnimation.true...style-rule>
+  </_.fcp.AnimationOnByDefault.false...style>
+  <datasources>
+    <datasource caption='clean8' inline='true' name='federated.0f12k1l0i011xq1fdlb760xcpvl9' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='clean8' name='textscan.1p3w2jt0ol0zaj1alc8fo017e6p2'>
+            <connection class='textscan' directory='D:/資料處理/Github/SBA-project/original data' filename='clean8.csv' password='' server='' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='textscan.1p3w2jt0ol0zaj1alc8fo017e6p2' name='clean8.csv' table='[clean8#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_TW' separator=','>
+            <column datatype='integer' name='LoanNr_ChkDgt' ordinal='0' />
+            <column datatype='string' name='Name' ordinal='1' />
+            <column datatype='string' name='City' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='Zip' ordinal='4' />
+            <column datatype='string' name='Bank' ordinal='5' />
+            <column datatype='string' name='BankState' ordinal='6' />
+            <column datatype='date' name='ApprovalDate' ordinal='7' />
+            <column datatype='real' name='Term' ordinal='8' />
+            <column datatype='real' name='NoEmp' ordinal='9' />
+            <column datatype='real' name='NewExist' ordinal='10' />
+            <column datatype='real' name='CreateJob' ordinal='11' />
+            <column datatype='real' name='RetainedJob' ordinal='12' />
+            <column datatype='real' name='IsFranchised' ordinal='13' />
+            <column datatype='integer' name='UrbanRural' ordinal='14' />
+            <column datatype='real' name='RevLineCr' ordinal='15' />
+            <column datatype='real' name='LowDoc' ordinal='16' />
+            <column datatype='date' name='ChgOffDate' ordinal='17' />
+            <column datatype='date' name='DisbursementDate' ordinal='18' />
+            <column datatype='real' name='DisbursementGross' ordinal='19' />
+            <column datatype='real' name='BalanceGross' ordinal='20' />
+            <column datatype='real' name='Default' ordinal='21' />
+            <column datatype='real' name='ChgOffPrinGr' ordinal='22' />
+            <column datatype='real' name='GrAppv' ordinal='23' />
+            <column datatype='real' name='SBA_Appv' ordinal='24' />
+            <column datatype='string' name='Industry' ordinal='25' />
+            <column datatype='real' name='ChgOffDate_year' ordinal='26' />
+            <column datatype='real' name='ChgOffDate_month' ordinal='27' />
+            <column datatype='real' name='ChgOffDate_day' ordinal='28' />
+            <column datatype='real' name='DisbursementDate_year' ordinal='29' />
+            <column datatype='real' name='DisbursementDate_month' ordinal='30' />
+            <column datatype='real' name='DisbursementDate_day' ordinal='31' />
+            <column datatype='real' name='ApprovalDate_year' ordinal='32' />
+            <column datatype='real' name='ApprovalDate_month' ordinal='33' />
+            <column datatype='real' name='ApprovalDate_day' ordinal='34' />
+            <column datatype='real' name='Population' ordinal='35' />
+            <column datatype='real' name='PopDensity' ordinal='36' />
+            <column datatype='real' name='HousingUnits' ordinal='37' />
+            <column datatype='real' name='OccupiedHousingUnits' ordinal='38' />
+            <column datatype='real' name='MedianHomeValue' ordinal='39' />
+            <column datatype='real' name='MedianHouseholdIncome' ordinal='40' />
+            <column datatype='real' name='DisbursePerEmployee' ordinal='41' />
+            <column datatype='real' name='Bank%' ordinal='42' />
+            <column datatype='string' name='State_division' ordinal='43' />
+            <column datatype='real' name='USDPerJobCreated' ordinal='44' />
+            <column datatype='date' name='loan_marturity_date' ordinal='45' />
+            <column datatype='integer' name='Is_Cross_State' ordinal='46' />
+            <column datatype='real' name='Appv_Dusburse_delta' ordinal='47' />
+            <column datatype='real' name='Default%' ordinal='48' />
+            <column datatype='real' name='RealEstate' ordinal='49' />
+            <column datatype='real' name='GreatRecession' ordinal='50' />
+            <column datatype='real' name='DotCom' ordinal='51' />
+            <column datatype='real' name='Recession' ordinal='52' />
+            <column datatype='real' name='Mon_Is_14710' ordinal='53' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='textscan.1p3w2jt0ol0zaj1alc8fo017e6p2' name='clean8.csv' table='[clean8#csv]' type='table'>
+          <columns character-set='UTF-8' header='yes' locale='zh_TW' separator=','>
+            <column datatype='integer' name='LoanNr_ChkDgt' ordinal='0' />
+            <column datatype='string' name='Name' ordinal='1' />
+            <column datatype='string' name='City' ordinal='2' />
+            <column datatype='string' name='State' ordinal='3' />
+            <column datatype='integer' name='Zip' ordinal='4' />
+            <column datatype='string' name='Bank' ordinal='5' />
+            <column datatype='string' name='BankState' ordinal='6' />
+            <column datatype='date' name='ApprovalDate' ordinal='7' />
+            <column datatype='real' name='Term' ordinal='8' />
+            <column datatype='real' name='NoEmp' ordinal='9' />
+            <column datatype='real' name='NewExist' ordinal='10' />
+            <column datatype='real' name='CreateJob' ordinal='11' />
+            <column datatype='real' name='RetainedJob' ordinal='12' />
+            <column datatype='real' name='IsFranchised' ordinal='13' />
+            <column datatype='integer' name='UrbanRural' ordinal='14' />
+            <column datatype='real' name='RevLineCr' ordinal='15' />
+            <column datatype='real' name='LowDoc' ordinal='16' />
+            <column datatype='date' name='ChgOffDate' ordinal='17' />
+            <column datatype='date' name='DisbursementDate' ordinal='18' />
+            <column datatype='real' name='DisbursementGross' ordinal='19' />
+            <column datatype='real' name='BalanceGross' ordinal='20' />
+            <column datatype='real' name='Default' ordinal='21' />
+            <column datatype='real' name='ChgOffPrinGr' ordinal='22' />
+            <column datatype='real' name='GrAppv' ordinal='23' />
+            <column datatype='real' name='SBA_Appv' ordinal='24' />
+            <column datatype='string' name='Industry' ordinal='25' />
+            <column datatype='real' name='ChgOffDate_year' ordinal='26' />
+            <column datatype='real' name='ChgOffDate_month' ordinal='27' />
+            <column datatype='real' name='ChgOffDate_day' ordinal='28' />
+            <column datatype='real' name='DisbursementDate_year' ordinal='29' />
+            <column datatype='real' name='DisbursementDate_month' ordinal='30' />
+            <column datatype='real' name='DisbursementDate_day' ordinal='31' />
+            <column datatype='real' name='ApprovalDate_year' ordinal='32' />
+            <column datatype='real' name='ApprovalDate_month' ordinal='33' />
+            <column datatype='real' name='ApprovalDate_day' ordinal='34' />
+            <column datatype='real' name='Population' ordinal='35' />
+            <column datatype='real' name='PopDensity' ordinal='36' />
+            <column datatype='real' name='HousingUnits' ordinal='37' />
+            <column datatype='real' name='OccupiedHousingUnits' ordinal='38' />
+            <column datatype='real' name='MedianHomeValue' ordinal='39' />
+            <column datatype='real' name='MedianHouseholdIncome' ordinal='40' />
+            <column datatype='real' name='DisbursePerEmployee' ordinal='41' />
+            <column datatype='real' name='Bank%' ordinal='42' />
+            <column datatype='string' name='State_division' ordinal='43' />
+            <column datatype='real' name='USDPerJobCreated' ordinal='44' />
+            <column datatype='date' name='loan_marturity_date' ordinal='45' />
+            <column datatype='integer' name='Is_Cross_State' ordinal='46' />
+            <column datatype='real' name='Appv_Dusburse_delta' ordinal='47' />
+            <column datatype='real' name='Default%' ordinal='48' />
+            <column datatype='real' name='RealEstate' ordinal='49' />
+            <column datatype='real' name='GreatRecession' ordinal='50' />
+            <column datatype='real' name='DotCom' ordinal='51' />
+            <column datatype='real' name='Recession' ordinal='52' />
+            <column datatype='real' name='Mon_Is_14710' ordinal='53' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='character-set'>&quot;UTF-8&quot;</attribute>
+              <attribute datatype='string' name='collation'>&quot;zh_Hans_CN&quot;</attribute>
+              <attribute datatype='string' name='currency'>&quot;NT$&quot;</attribute>
+              <attribute datatype='string' name='debit-close-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='debit-open-char'>&quot;&quot;</attribute>
+              <attribute datatype='string' name='field-delimiter'>&quot;,&quot;</attribute>
+              <attribute datatype='string' name='header-row'>&quot;true&quot;</attribute>
+              <attribute datatype='string' name='locale'>&quot;zh_TW&quot;</attribute>
+              <attribute datatype='string' name='single-char'>&quot;&quot;</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LoanNr_ChkDgt</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[LoanNr_ChkDgt]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>LoanNr_ChkDgt</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Name</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Name]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Name</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>City</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[City]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>City</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>State</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Zip</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Zip]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Zip</remote-alias>
+            <ordinal>4</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bank</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Bank]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Bank</remote-alias>
+            <ordinal>5</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BankState</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[BankState]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>BankState</remote-alias>
+            <ordinal>6</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ApprovalDate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[ApprovalDate]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>ApprovalDate</remote-alias>
+            <ordinal>7</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Term</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Term]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Term</remote-alias>
+            <ordinal>8</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NoEmp</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NoEmp]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>NoEmp</remote-alias>
+            <ordinal>9</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>NewExist</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[NewExist]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>NewExist</remote-alias>
+            <ordinal>10</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>CreateJob</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[CreateJob]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>CreateJob</remote-alias>
+            <ordinal>11</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RetainedJob</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RetainedJob]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>RetainedJob</remote-alias>
+            <ordinal>12</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>IsFranchised</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[IsFranchised]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>IsFranchised</remote-alias>
+            <ordinal>13</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>UrbanRural</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[UrbanRural]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>UrbanRural</remote-alias>
+            <ordinal>14</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RevLineCr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RevLineCr]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>RevLineCr</remote-alias>
+            <ordinal>15</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>LowDoc</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[LowDoc]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>LowDoc</remote-alias>
+            <ordinal>16</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChgOffDate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[ChgOffDate]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>ChgOffDate</remote-alias>
+            <ordinal>17</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DisbursementDate</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[DisbursementDate]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>DisbursementDate</remote-alias>
+            <ordinal>18</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DisbursementGross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DisbursementGross]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>DisbursementGross</remote-alias>
+            <ordinal>19</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>BalanceGross</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[BalanceGross]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>BalanceGross</remote-alias>
+            <ordinal>20</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Default</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Default]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Default</remote-alias>
+            <ordinal>21</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChgOffPrinGr</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ChgOffPrinGr]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>ChgOffPrinGr</remote-alias>
+            <ordinal>22</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GrAppv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GrAppv]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>GrAppv</remote-alias>
+            <ordinal>23</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>SBA_Appv</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[SBA_Appv]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>SBA_Appv</remote-alias>
+            <ordinal>24</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Industry</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[Industry]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Industry</remote-alias>
+            <ordinal>25</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChgOffDate_year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ChgOffDate_year]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>ChgOffDate_year</remote-alias>
+            <ordinal>26</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChgOffDate_month</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ChgOffDate_month]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>ChgOffDate_month</remote-alias>
+            <ordinal>27</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ChgOffDate_day</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ChgOffDate_day]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>ChgOffDate_day</remote-alias>
+            <ordinal>28</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DisbursementDate_year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DisbursementDate_year]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>DisbursementDate_year</remote-alias>
+            <ordinal>29</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DisbursementDate_month</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DisbursementDate_month]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>DisbursementDate_month</remote-alias>
+            <ordinal>30</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DisbursementDate_day</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DisbursementDate_day]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>DisbursementDate_day</remote-alias>
+            <ordinal>31</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ApprovalDate_year</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ApprovalDate_year]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>ApprovalDate_year</remote-alias>
+            <ordinal>32</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ApprovalDate_month</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ApprovalDate_month]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>ApprovalDate_month</remote-alias>
+            <ordinal>33</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>ApprovalDate_day</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[ApprovalDate_day]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>ApprovalDate_day</remote-alias>
+            <ordinal>34</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Population</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Population]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Population</remote-alias>
+            <ordinal>35</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>PopDensity</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[PopDensity]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>PopDensity</remote-alias>
+            <ordinal>36</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>HousingUnits</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[HousingUnits]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>HousingUnits</remote-alias>
+            <ordinal>37</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>OccupiedHousingUnits</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[OccupiedHousingUnits]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>OccupiedHousingUnits</remote-alias>
+            <ordinal>38</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianHomeValue</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianHomeValue]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>MedianHomeValue</remote-alias>
+            <ordinal>39</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>MedianHouseholdIncome</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[MedianHouseholdIncome]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>MedianHouseholdIncome</remote-alias>
+            <ordinal>40</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DisbursePerEmployee</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DisbursePerEmployee]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>DisbursePerEmployee</remote-alias>
+            <ordinal>41</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Bank%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Bank%]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Bank%</remote-alias>
+            <ordinal>42</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>State_division</remote-name>
+            <remote-type>129</remote-type>
+            <local-name>[State_division]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>State_division</remote-alias>
+            <ordinal>43</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <scale>1</scale>
+            <width>1073741823</width>
+            <contains-null>true</contains-null>
+            <collation flag='0' name='LZH_RCN' />
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>USDPerJobCreated</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[USDPerJobCreated]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>USDPerJobCreated</remote-alias>
+            <ordinal>44</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>loan_marturity_date</remote-name>
+            <remote-type>133</remote-type>
+            <local-name>[loan_marturity_date]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>loan_marturity_date</remote-alias>
+            <ordinal>45</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Is_Cross_State</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Is_Cross_State]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Is_Cross_State</remote-alias>
+            <ordinal>46</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Appv_Dusburse_delta</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Appv_Dusburse_delta]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Appv_Dusburse_delta</remote-alias>
+            <ordinal>47</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Default%</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Default%]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Default%</remote-alias>
+            <ordinal>48</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>RealEstate</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[RealEstate]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>RealEstate</remote-alias>
+            <ordinal>49</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>GreatRecession</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[GreatRecession]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>GreatRecession</remote-alias>
+            <ordinal>50</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>DotCom</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[DotCom]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>DotCom</remote-alias>
+            <ordinal>51</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Recession</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Recession]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Recession</remote-alias>
+            <ordinal>52</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Mon_Is_14710</remote-name>
+            <remote-type>5</remote-type>
+            <local-name>[Mon_Is_14710]</local-name>
+            <parent-name>[clean8.csv]</parent-name>
+            <remote-alias>Mon_Is_14710</remote-alias>
+            <ordinal>53</ordinal>
+            <local-type>real</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column datatype='string' name='[:Measure Names]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]&quot;' value='Cross State Ratio' />
+          <alias key='&quot;[federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk]&quot;' value='Cross State Size' />
+        </aliases>
+      </column>
+      <column caption='Approval Date' datatype='date' name='[ApprovalDate]' role='dimension' type='ordinal' />
+      <column caption='ApprovalDate day' datatype='real' name='[ApprovalDate_day]' role='dimension' type='quantitative' />
+      <column caption='ApprovalDate month' datatype='real' name='[ApprovalDate_month]' role='dimension' type='quantitative' />
+      <column caption='ApprovalDate year' datatype='real' name='[ApprovalDate_year]' role='dimension' type='quantitative' />
+      <column caption='Appv Dusburse delta' datatype='real' name='[Appv_Dusburse_delta]' role='measure' type='quantitative' />
+      <column caption='Balance Gross' datatype='real' name='[BalanceGross]' role='measure' type='quantitative' />
+      <column caption='Bank State' datatype='string' name='[BankState]' role='dimension' type='nominal' />
+      <column caption='Chg Off Date' datatype='date' name='[ChgOffDate]' role='dimension' type='ordinal' />
+      <column caption='ChgOffDate day' datatype='real' name='[ChgOffDate_day]' role='dimension' type='quantitative' />
+      <column caption='ChgOffDate month' datatype='real' name='[ChgOffDate_month]' role='dimension' type='quantitative' />
+      <column caption='ChgOffDate year' datatype='real' name='[ChgOffDate_year]' role='dimension' type='quantitative' />
+      <column caption='Chg Off Prin Gr' datatype='real' name='[ChgOffPrinGr]' role='measure' type='quantitative' />
+      <column datatype='string' name='[City]' role='dimension' semantic-role='[City].[Name]' type='nominal' />
+      <column caption='Create Job' datatype='real' name='[CreateJob]' role='measure' type='quantitative' />
+      <column caption='Disburse Per Employee' datatype='real' name='[DisbursePerEmployee]' role='measure' type='quantitative' />
+      <column caption='Disbursement Date' datatype='date' name='[DisbursementDate]' role='dimension' type='ordinal' />
+      <column caption='DisbursementDate day' datatype='real' name='[DisbursementDate_day]' role='dimension' type='quantitative' />
+      <column caption='DisbursementDate month' datatype='real' name='[DisbursementDate_month]' role='dimension' type='quantitative' />
+      <column caption='DisbursementDate year' datatype='real' name='[DisbursementDate_year]' role='dimension' type='quantitative' />
+      <column caption='Disbursement Gross' datatype='real' name='[DisbursementGross]' role='measure' type='quantitative' />
+      <column caption='Dot Com' datatype='real' name='[DotCom]' role='measure' type='quantitative' />
+      <column caption='Gr Appv' datatype='real' name='[GrAppv]' role='measure' type='quantitative' />
+      <column caption='Great Recession' datatype='real' name='[GreatRecession]' role='measure' type='quantitative' />
+      <column caption='Housing Units' datatype='real' name='[HousingUnits]' role='measure' type='quantitative' />
+      <column caption='Is Franchised' datatype='real' name='[IsFranchised]' role='measure' type='quantitative' />
+      <column caption='Is Cross State' datatype='integer' name='[Is_Cross_State]' role='measure' type='quantitative' />
+      <column caption='LoanNr ChkDgt' datatype='integer' name='[LoanNr_ChkDgt]' role='measure' type='quantitative' />
+      <column caption='Low Doc' datatype='real' name='[LowDoc]' role='measure' type='quantitative' />
+      <column caption='Median Home Value' datatype='real' name='[MedianHomeValue]' role='measure' type='quantitative' />
+      <column caption='Median Household Income' datatype='real' name='[MedianHouseholdIncome]' role='measure' type='quantitative' />
+      <column caption='Mon Is 14710' datatype='real' name='[Mon_Is_14710]' role='measure' type='quantitative' />
+      <column caption='New Exist' datatype='real' name='[NewExist]' role='measure' type='quantitative' />
+      <column caption='No Emp' datatype='real' name='[NoEmp]' role='measure' type='quantitative' />
+      <column caption='Occupied Housing Units' datatype='real' name='[OccupiedHousingUnits]' role='measure' type='quantitative' />
+      <column caption='Pop Density' datatype='real' name='[PopDensity]' role='measure' type='quantitative' />
+      <column caption='Real Estate' datatype='real' name='[RealEstate]' role='measure' type='quantitative' />
+      <column caption='Retained Job' datatype='real' name='[RetainedJob]' role='measure' type='quantitative' />
+      <column caption='Rev Line Cr' datatype='real' name='[RevLineCr]' role='measure' type='quantitative' />
+      <column caption='SBA Appv' datatype='real' name='[SBA_Appv]' role='measure' type='quantitative' />
+      <column datatype='string' name='[State]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='State division' datatype='string' name='[State_division]' role='dimension' semantic-role='[State].[Name]' type='nominal' />
+      <column caption='USD Per Job Created' datatype='real' name='[USDPerJobCreated]' role='measure' type='quantitative' />
+      <column caption='Urban Rural' datatype='integer' name='[UrbanRural]' role='measure' type='quantitative' />
+      <column aggregation='Sum' datatype='integer' default-format='*00000' name='[Zip]' role='dimension' semantic-role='[ZipCode].[Name]' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='clean8.csv' datatype='table' name='[__tableau_internal_object_id__].[clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7]' role='measure' type='quantitative' />
+      <column caption='Loan Marturity Date' datatype='date' name='[loan_marturity_date]' role='dimension' type='ordinal' />
+      <column-instance column='[Is_Cross_State]' derivation='Avg' name='[avg:Is_Cross_State:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Is_Cross_State]' derivation='Sum' name='[sum:Is_Cross_State:qk]' pivot='key' type='quantitative' />
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-structure='true' />
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;Taiwan&quot;' />
+      </semantic-values>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='clean8.csv' id='clean8.csv_8725BF5C56B04AE5B25F0C108D61DAD7'>
+            <properties context=''>
+              <relation connection='textscan.1p3w2jt0ol0zaj1alc8fo017e6p2' name='clean8.csv' table='[clean8#csv]' type='table'>
+                <columns character-set='UTF-8' header='yes' locale='zh_TW' separator=','>
+                  <column datatype='integer' name='LoanNr_ChkDgt' ordinal='0' />
+                  <column datatype='string' name='Name' ordinal='1' />
+                  <column datatype='string' name='City' ordinal='2' />
+                  <column datatype='string' name='State' ordinal='3' />
+                  <column datatype='integer' name='Zip' ordinal='4' />
+                  <column datatype='string' name='Bank' ordinal='5' />
+                  <column datatype='string' name='BankState' ordinal='6' />
+                  <column datatype='date' name='ApprovalDate' ordinal='7' />
+                  <column datatype='real' name='Term' ordinal='8' />
+                  <column datatype='real' name='NoEmp' ordinal='9' />
+                  <column datatype='real' name='NewExist' ordinal='10' />
+                  <column datatype='real' name='CreateJob' ordinal='11' />
+                  <column datatype='real' name='RetainedJob' ordinal='12' />
+                  <column datatype='real' name='IsFranchised' ordinal='13' />
+                  <column datatype='integer' name='UrbanRural' ordinal='14' />
+                  <column datatype='real' name='RevLineCr' ordinal='15' />
+                  <column datatype='real' name='LowDoc' ordinal='16' />
+                  <column datatype='date' name='ChgOffDate' ordinal='17' />
+                  <column datatype='date' name='DisbursementDate' ordinal='18' />
+                  <column datatype='real' name='DisbursementGross' ordinal='19' />
+                  <column datatype='real' name='BalanceGross' ordinal='20' />
+                  <column datatype='real' name='Default' ordinal='21' />
+                  <column datatype='real' name='ChgOffPrinGr' ordinal='22' />
+                  <column datatype='real' name='GrAppv' ordinal='23' />
+                  <column datatype='real' name='SBA_Appv' ordinal='24' />
+                  <column datatype='string' name='Industry' ordinal='25' />
+                  <column datatype='real' name='ChgOffDate_year' ordinal='26' />
+                  <column datatype='real' name='ChgOffDate_month' ordinal='27' />
+                  <column datatype='real' name='ChgOffDate_day' ordinal='28' />
+                  <column datatype='real' name='DisbursementDate_year' ordinal='29' />
+                  <column datatype='real' name='DisbursementDate_month' ordinal='30' />
+                  <column datatype='real' name='DisbursementDate_day' ordinal='31' />
+                  <column datatype='real' name='ApprovalDate_year' ordinal='32' />
+                  <column datatype='real' name='ApprovalDate_month' ordinal='33' />
+                  <column datatype='real' name='ApprovalDate_day' ordinal='34' />
+                  <column datatype='real' name='Population' ordinal='35' />
+                  <column datatype='real' name='PopDensity' ordinal='36' />
+                  <column datatype='real' name='HousingUnits' ordinal='37' />
+                  <column datatype='real' name='OccupiedHousingUnits' ordinal='38' />
+                  <column datatype='real' name='MedianHomeValue' ordinal='39' />
+                  <column datatype='real' name='MedianHouseholdIncome' ordinal='40' />
+                  <column datatype='real' name='DisbursePerEmployee' ordinal='41' />
+                  <column datatype='real' name='Bank%' ordinal='42' />
+                  <column datatype='string' name='State_division' ordinal='43' />
+                  <column datatype='real' name='USDPerJobCreated' ordinal='44' />
+                  <column datatype='date' name='loan_marturity_date' ordinal='45' />
+                  <column datatype='integer' name='Is_Cross_State' ordinal='46' />
+                  <column datatype='real' name='Appv_Dusburse_delta' ordinal='47' />
+                  <column datatype='real' name='Default%' ordinal='48' />
+                  <column datatype='real' name='RealEstate' ordinal='49' />
+                  <column datatype='real' name='GreatRecession' ordinal='50' />
+                  <column datatype='real' name='DotCom' ordinal='51' />
+                  <column datatype='real' name='Recession' ordinal='52' />
+                  <column datatype='real' name='Mon_Is_14710' ordinal='53' />
+                </columns>
+              </relation>
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <worksheets>
+    <worksheet name='1988~2009 CrossState Ratio'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='clean8' name='federated.0f12k1l0i011xq1fdlb760xcpvl9' />
+          </datasources>
+          <datasource-dependencies datasource='federated.0f12k1l0i011xq1fdlb760xcpvl9'>
+            <column caption='Disbursement Date' datatype='date' name='[DisbursementDate]' role='dimension' type='ordinal' />
+            <column caption='Is Cross State' datatype='integer' name='[Is_Cross_State]' role='measure' type='quantitative' />
+            <column-instance column='[Is_Cross_State]' derivation='Avg' name='[avg:Is_Cross_State:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Is_Cross_State]' derivation='Sum' name='[sum:Is_Cross_State:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DisbursementDate]' derivation='Year-Trunc' name='[tyr:DisbursementDate:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[DisbursementDate]' derivation='Year' name='[yr:DisbursementDate:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[yr:DisbursementDate:ok]'>
+            <groupfilter function='except' user:ui-domain='relevant' user:ui-enumeration='exclusive' user:ui-manual-selection='true' user:ui-manual-selection-all-when-empty='true' user:ui-marker='enumerate'>
+              <groupfilter function='level-members' level='[yr:DisbursementDate:ok]' />
+              <groupfilter function='union'>
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1948' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1968' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1969' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1970' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1971' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1972' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1973' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1974' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1975' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1976' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1977' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1978' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1979' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1980' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1981' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1982' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1983' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1984' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1985' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1986' />
+                <groupfilter function='member' level='[yr:DisbursementDate:ok]' member='1987' />
+              </groupfilter>
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[yr:DisbursementDate:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='title' class='0' field='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]' scope='rows' value='Cross State Ratio' />
+            <encoding attr='space' class='0' field='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk]' field-type='quantitative' fold='true' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='cell'>
+            <format attr='text-format' field='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]' value='p0.00%' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='text-format' field='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]' value='p0%' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[:Measure Names]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='1' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[:Measure Names]' />
+              <text column='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='2' selection-relaxation-option='selection-relaxation-allow' y-axis-name='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Automatic' />
+            <encodings>
+              <color column='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[:Measure Names]' />
+              <text column='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-show' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk] + [federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk])</rows>
+        <cols>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</cols>
+        <mark-labels>
+          <mark-label id='0'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk]</field>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</field>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[:Measure Names]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>53264</value>
+                <value>#2006-01-01 00:00:00#</value>
+                <value>&quot;[federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk]&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='1' y='-41' />
+          </mark-label>
+          <mark-label id='1'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]</field>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</field>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[:Measure Names]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.62919070848479119</value>
+                <value>#2005-01-01 00:00:00#</value>
+                <value>&quot;[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-16' y='19' />
+          </mark-label>
+          <mark-label id='2'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]</field>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</field>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[:Measure Names]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.58192703942386004</value>
+                <value>#2004-01-01 00:00:00#</value>
+                <value>&quot;[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-19' y='19' />
+          </mark-label>
+          <mark-label id='3'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]</field>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</field>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[:Measure Names]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>0.56332268024484045</value>
+                <value>#2008-01-01 00:00:00#</value>
+                <value>&quot;[federated.0f12k1l0i011xq1fdlb760xcpvl9].[avg:Is_Cross_State:qk]&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='31' y='14' />
+          </mark-label>
+          <mark-label id='4'>
+            <tuple-reference>
+              <tuple-descriptor>
+                <pane-descriptor>
+                  <x-fields>
+                    <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</field>
+                  </x-fields>
+                  <y-fields>
+                    <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk]</field>
+                  </y-fields>
+                </pane-descriptor>
+                <columns>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk]</field>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[tyr:DisbursementDate:qk]</field>
+                  <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[:Measure Names]</field>
+                </columns>
+              </tuple-descriptor>
+              <tuple>
+                <value>46208</value>
+                <value>#2007-01-01 00:00:00#</value>
+                <value>&quot;[federated.0f12k1l0i011xq1fdlb760xcpvl9].[sum:Is_Cross_State:qk]&quot;</value>
+              </tuple>
+            </tuple-reference>
+            <label-position x='-22' y='-32' />
+          </mark-label>
+        </mark-labels>
+      </table>
+      <simple-id uuid='{288DB4FF-ED70-4994-96CB-BB4929348207}' />
+    </worksheet>
+  </worksheets>
+  <windows source-height='30'>
+    <window class='worksheet' maximized='true' name='1988~2009 CrossState Ratio'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='31'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='1' param='[federated.0f12k1l0i011xq1fdlb760xcpvl9].[:Measure Names]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <highlight>
+          <color-one-way>
+            <field>[federated.0f12k1l0i011xq1fdlb760xcpvl9].[yr:DisbursementDate:ok]</field>
+          </color-one-way>
+        </highlight>
+      </viewpoint>
+      <simple-id uuid='{528BCC1B-92D1-4127-B0CB-C401E3B104F2}' />
+    </window>
+  </windows>
+  <thumbnails>
+    <thumbnail height='192' name='1988~2009 CrossState Ratio' width='192'>
+      iVBORw0KGgoAAAANSUhEUgAAAMAAAADACAYAAABS3GwHAAAACXBIWXMAAA7DAAAOwwHHb6hk
+      AAAgAElEQVR4nO3deXAc133g8W/39NwX5sIM7psEwJuiqNuSLduKnUTabDa2s0m8ObZS+StZ
+      75HKZjepbCqbPbLZpJLa3X+yVcmWk4qdSiq240SSI1onaR0URZEACBDH4BoAg2vus7vf/gEL
+      lk1QHJwEOe/zDwVopvvN4P369Xvv914rQgiBJNUpDUDGgFSvtA/+I5fL7fgghUIBl8u1JwWS
+      pIOkASiKgtfrve2LPqqFUBQF4CPfL0mHlXbnlwBGhZHh6xR0G1algmJ3oSFoau2gwetCCCFv
+      o6R7klJTJ1gIZufmsCoCFYOS1UdlfZ7ZdZMnHzpJNpvF7XYfQHElaW/V1gIAkUgEu83KwtIy
+      bRE/lYAPXyqFqqqoqoqm1XwoSTo0amsB7iCbzco+gHRPUu92ASTpbpIBINU1GQBSXZMBINU1
+      GQBSXZMBINU1GQBSXZMBINW1mqZvhRAsL87j8jYwn1gk2hhEtbqwaQoOu32/yyhJ+6a2ANBz
+      3JxcoLu5QEl1sr6yTLZQwtsQoaM1hmma6Lq+32WVpD1XUwAoqhWvy8p6yUQtJGgYOIMjGWc0
+      sUxXe7PMBZLuWTIXSKprshMs1TUZAFJdkwEg1TUZAFJdkwEg1TUZAFJdkwEg1TUZAFJdkwEg
+      1bUak+F0bgyNEAiGWFpewev3YlFUfIEIAZ/cElG6d9UWANUsmYJJtpTkRHeY6YyKyCZZTpc4
+      e7xPJsNJ96zakuGsDcTCK3j8AaZXMhzpbSefc5NcTcuNsaR7mkyGk+qa7ARLdU0GgFTXZABI
+      dU0GgFTXZABIdU0GgFTXZABIdU0GgFTXat4Ya2ZqnIZghIWlFaKRAKrNhV1TcTjkxljSvau2
+      /AVhsLy8hlNTKas20uurZPJzuP1hutqaZC6QdM+qMQBM/H4v6yWBmlvCP3AKR3KasaU1ejpa
+      ZC6QdM+SuUBSXZOdYKmuyQCQ6poMAKmuyQCQ6poMAKmuyQCQ6poMAKmuyQCQ6poMAKmu1ZwM
+      N3ZjiFC4kcXldcIBN1jsuJxufF65MZZ076o5Ga5SqrCQXOdIs5sbywZaOcGKzcdgX4dMhpPu
+      WTUnwzlcbuwOB2PzGQYGjpBbtTG3mpcbY0n3NJkMJ9U12QmW6poMAKmuyQCQ6poMAKmuyQCQ
+      6poMAKmuyQCQ6poMAKmu1Tx9a+hVUFTyhQIOux1FtaAqYLFY9rN8krSvak6Gmx55h4o1QgEV
+      n1qhVDVojLUQCfoRQmCa5n6XVZL2XE0BYJQyrGXLCB/YSkk83YNYVmYYGovz1MOnEEKwBxkV
+      knTgas4FEkaVqiFIZ3KEQ350Q1DIF/D7fTIXSLpnyWQ4qa7JUSCprskAkOqaDACprskAkOqa
+      DACprskAkOqaDACprskAkOralgEwfXOEl779Oh/e6SeXWiZbKDIZnyG9tkwqk6dYLB1QMSVp
+      f9ySCySESbFYpFws88EUsTANluenSJoh+hs1xhfWsRkJHL4QPe3NcmMs6Z61RTKcjsBKIODf
+      /I1RKZAvmyhqhfhClv7B4+SWphlPpujrbJUbY0n3rC1r7fvvXcUbbOSDBGfN4eX42Ye/7zXu
+      th6ibftdPEnaX7f0ARTFxpGjzSzOr92N8kjSgcgVK7z+/szWfQBfqI3uDh2Z4S/dTdVqlbW1
+      NcLh8Oa/6+vreDweKpXK5r60FosFq9V6x+MJIcgWKlweW+DFtydYWsvdGgCLo9eZWVtjMSO4
+      8yElaf8Ui0UuXLhAOBwmGAwSDod54YUX+PSnP81f/dVfMTg4SCaTob+/n97e3tsep1TRuTax
+      xCtXpymUqzx4tJl/+4VHsFu1WwPAG4niTBfoaPVgAnLFr3S3mKaJw+GgVCoxOjrK4OAgQgi+
+      +c1vous6XV1dTExM8Morr9wSALphMja7yqtXp1lcyzHYGeELnzhOS8SLoigAjI+Pb70gJrU8
+      TzJt0tvbVtNMmVwQI+2HcrnM0tISTU1NrK6u4vf7yWQyBAIBTNPEZrOh6zrpdJpIJIIQgpml
+      NK9fm2Fsdo2WiJcnTrZzpDWExXJrTV5aWto6AK69+wpvvD7Lz/7yT+OooaAyAKS76e0b89yY
+      WWV6MYXHaeOx422c7I1it3700Pz4+PhWnWCdpcUCfUea963AkrQXcsUK37g4xlvD8wx0hvnS
+      TzyM22mr+f29vb1bzQOoNDY2sJjSa980SJIOUKFU5YW3xnl/MsknH+jmJ54aRNviFqcWt9Rx
+      RVERKiTGp9A/+QQaG8NHmXQKt8dLJpPF5XKgWqyoqoImN8aSDsAHQ5ivvj/N5RsJPna6g1//
+      6cexarurf1vcAlW4cX2CaGsTyuZvDZYXEyyUyhSdAbxqmVJZJxxtJhoOyI2xJBKJBMlkEofD
+      gdVqpaenh4WFBdxuN0tLSzgcDjRNw+l00tDQsK1jr2aKfOONMSYSa/z8Z8/w2Ye+N+Kz23p3
+      S7uRXVzkgUfPU7VYvzcEaphg0RB2F2p2CW+kFa9dYWR8Zlcnl+4fdrudubk5bDYbc3NzmKbJ
+      tWvXiMfjvPXWWyQSCd5++22Gh4drPmYmX+bLL77PH//NWxzrbuS3fu4pupq2Fzx3cksLoGoq
+      o1MLDHY3b+YCYdEIhSJ4vF5y+SINfheGp59QUwlFUVAUBVWVSwvqWTqdxjRNUqkUhmGwtLRE
+      qVQiHo9jGAY9PT24XC5GRkYAbltfdMOkUKryrXcmuD61zDMP9vBTnzq55TDmXthyGLRUKpFK
+      pYjGYh+6Dbq9+2EY9IPP7PP5KJVKBINBstksbreblZUVvF4vuq5jt9ux2WofaTjMMpkML730
+      En19fUxOTvLZz36WRCLB+Pg4drudlZUVbDYbfX19HznTuh2mEJQrOqWKTr5UJZUtsZYtks6V
+      WM+VGJpaJlcs85NPn+ChwZZd3+PfyZYDPTfef5dr16f4Zz//Uzj39fSHRy6X49VXX+XcuXNM
+      Tk7y9NNPc/36dZqbm5mYmGB5eRmn00lnZycnTpzYnE28lzkcDpxOJxaLhf7+fiwWC5cuXcI0
+      TQYHB+nt7eXq1atcvnwZr9dLNBq94zGFEBRKVRKrWf7u0k0aPA4KpSqFUpViuUrVMLFqKk6b
+      FbfTSsDjwO9xEPK76G0Ncro3hs9lp3OPb3VuZ8sA8IeiBPxLdbVe0jAMNE1jZmaGlpYWSqUS
+      FouFVCoFwLFjx8hkMrzzzjt0d3fj8Xjucol3r1Qq4Xa7URSFZDJJKBTi85//PMlkkqGhIQKB
+      AA8++CBzc3NbdlxNIcjmy8yvZBmfXyO+mCKVLaGqCs1hLx6njYH2MG1RPy67FYfNgsOmbV48
+      stks7733Hp0tnSSTSfqPnWV4eBi7K8jCQpFqtUo+nycWixEIBPblO9gyACxmAcUTPNB5ANM0
+      SSQSRKNR1tbWiEaj5HI5TNPczPwzTROfz7cvtyBer5dHH30Uq9VKuVwGoKWlBafTSVNTE+Fw
+      GF3XOXr0KG63e8/Pfzf4fD6eeOKJW37f2NhIY2Pj917n95Ncz2MtGSysblT26cU069kiLoeN
+      WNBNd3OAs30DhBtcOGy11ZwPbrO6urqYm5vj7NmzTE9PMzk5idvtplgsYhgG09PTPP300zVl
+      fG7XliVdWk6hlPJUObhkOMMwGB4e5sqVK3i9Xmw2G2+//Tb5fB5VVent7eXSpUucPHmSM2fO
+      7PmX4XK5cLlc3/c7XfOwXjToadmoDDabjVAotOtzDQ0Nkc/nKZfLNDc3Ew6HeeONN4jFYpvp
+      vn6/n+bmZnw+367Ptxu6YfKNi2P8+bfe5+yRJjpjDfS2BHn0eDshn3PHE1Cw0XFWFIXFxUUM
+      wyCVStHa2ko6nWZ9fZ1IJEI4HObq1atks1mCweAefrINW3aCJ0eHEI4A3R3NB9YJLpVKvPHG
+      G6TTaYLBIEePHqVcLnP58mVaWlrIZDJEIhHi8ThHjhzh2LFjuzrfVkxTsLSe49pkkpHpFUam
+      l1FVhb6WEA8cbeJ4VyNB3+57RYlEgmvXrtHc3Ey1WuXs2bNcvXoVXdfxer0kEomNQYholEce
+      eQSAubk5xsbGCAaDGIbBmTNnuHTpEl6vl2Qyic/nw+l0Eg6HaWpq2nUZASYSa/zlP16nqznA
+      o8fb6Ij674u+z4fd0gJUi1lMRWNidIz2juYDWxNgtVrp7++nsbGRVCqF1+ulXC7zzDPPUC6X
+      cTqdaJpGT08PTufedM2FEGTyZW7MrHJtconZZAa/286JnkY+/4ljBDwOUGBpPc+1iST/52vv
+      YJqCo+0hHjjSRHvUv6NRiuXlZRoaGkilUsRiMTKZDA0NDVitVm7cuMG5c+dYWlpidXV18z2B
+      QIBcLofP59tcCPJBP0QIga7rxONxZmdniUQiu1qjnS2U+eq3h1jNFPniD52mrfHutkL76ZYW
+      YHVqhImCRj4xy6Of+gT2Gg5ykMOgpYrOa1enOdUbw26zYLVYsGoqmkWt6epULFeZWUpz5eYi
+      N+dWURSF/o4wp3qitEf9d8wgzBbKDMdXuDqxyPRSmpaQl1O9MU50N+Jz1/Jt7czU1BRTU1ME
+      Ahsz7+3t7YyMjOByuUilUpw4cYJiscjNmzd56qmndhQAhmHy6tVp/vHyFD/ySB8PDbaiqvfX
+      Ff8H3RIAQghWlxex2L0E/LWNdBxkAEwm1vnN//ttTvfFMEyBbhhUdRPdMFFVBavFgmbZCAir
+      puK0azjtVuILKVRVoVI16GoOcLI7ypG2IF7XzittVTdIrGZ550aC0ZlVdNNkoCOCZlHpbw9R
+      1U2quoFumBim2PjZ2PhZ/26Zq8bGa66MLXC6r4lIgwuP04bHacPrsuN2WLFbLdisFuw2DfVD
+      QW4KgQJ7clsykVjjKxeG6Ij6+bEnBnA56mM9YE1PiBHCYGpiknBjlOTKOiG/E6E5cVg1XC7n
+      gQbAVy5cpyXi4/ET7T9QRvHdSmagGxuBUdENyhWDfKnCe+NLnD0So6819H2VaK8IIUjny1y8
+      PsvL78U52R3FqqlYLRZUi7IRkB9qrSyqglWzYLWoWCwqI9MrtEf9lCs6+VKFbLFCNl8hX6pQ
+      rhpUdYNSRUdVFeyaBatmYWk9T3vUz+Mn2+mKNRDwOrYdDPlSha9cGGIlVeALTx+nPeq/85vu
+      IzUGgMns1DjJVImjbQ3cTJaxGgXs3iC9HS2bM6b7rVI1+M9ffp3/+MUnsH7E6EMqlcI0TRRF
+      wel04nA4WFpawu/3s76+jsvlwuFwoKrqvgyt7Sf9uy1GRTcZmkpS1U0Sq1nmlrMUyzpBn5Ou
+      pgDdzQ20hD34btPCGabgzeF5/uGtCT77UA8PDbTc97c7W6ktAPQyo+MTGIZAr+r0HTtGdmmG
+      yWSJR84OHlgL8O0rcdYyRX78yYGPfN3ExATDw8P4fD7sdjtHjhzhwoULdHR0MDU1hc1mQ9M0
+      jh8/Tmdn547LY5omly5dolQqkclkOH/+PNlslmQySSAQ4MaNG5imydGjRzl+/Pi+bx5W1Q1W
+      M0Xiiyluzq4yt5yhUNaJ+F30tYU40hok4HVuzNJeHKM55OXHnxzY1iKS+01NfxFFs9PfP/h9
+      v3O1dhNt3ZcybckwTV55L86XPvfwnV9rGJimiWmaCCEolUoYhsH4+DgWi4VTp04xOTnJd77z
+      nV0FgKIoeL1eUqkUAwMDZLNZ7HY7q6ur9Pf343A4WF5eJh6Po+s6586d2/G5amHVLMSCHmJB
+      Dw8PbvxxyhWd5XSBm3NrvPxenKGpZTKFMr/xxY/Rfh8Oa27XPfOUyOtTSS5en+UXf/SBO742
+      nU4jhEBRFOx2O4qibJYxnU4TCoUwTZN8Pr/t3PQPM02Td955h9bWVubm5ujr66NUKjE/P09P
+      Tw8+38YjZAuFAgDNzXd/mWmxvJGXE/K77vziOnBPBIAQgj/46nf4iY8P0tZYX5203cjlcly8
+      eJFwOEw+n+exxx5jaGiIcrlMJpMhHA6TzWbp6OigtfUAm/ND5J5Y9ru4lqNU0WXl3yan07k5
+      KTY7O0u5XN4MhpWVFQqFAuvr66ysrOB2u/ct4ewwuycSPl94a4LPPNx3t4txz0kmkySTSZxO
+      J+3t7ZRKJcbGxigUCni9XiKRCGfOnCEYDNbtgqZDfwuUK1b4r3/+Or/98x+vy2E6aX8d+rB/
+      5b1pnjzVISu/tC8OdQBUdYNL12d59IR8EIG0Pw51ALw3vkh/Rxi3o34naqT9dWgDwBSC59+c
+      4JnzPXe7KNJ9rKZhUCF0JkbHwDTI4MRvF5imQjjaTMC3PxMqM4tpvC4bkYb7Y/mhdDjVOA+g
+      YHd58LqdFGamsQXbKawtMDw2ySNnB/flKZF/d2mUT53rkk+flPZVbQFgGhTyBexOJ25/mObG
+      IGWfB/d6enN10l4meq1liqxlSwx2NtZ9roq0vw7lPMBfvnSdtkYfj/1Azr8k7bVD1wkuV3Wu
+      TSY5P9Byt4si1YFDFwAXr89x9khs37fEkyQ4ZAHwQc7/px+UQ5/SwThUATAcX6E55N3VQnVJ
+      2o5DEwBCCF58e4LPPLw3uxBLUi0OTQDInH/pbjg0C2JeeGuCH35E5vxL+6NcLlOtVsnlcgBE
+      o1Gmp6cPRwuQK1a4ObfGye477z8vSTuRSqU2H9dkGMbmZrw15gIZTE9O4g9FWF5ZJ9zg2tgY
+      y2bF7dr9Pp2vvBfnqdMy51/aP6ZpMjc3R1NTE9euXcPpdHLz5s3aN8ZaW1kmsbRCd8zHaLKM
+      Tc9j9QTo62zd1cZYumHy23/2Gr/2zx+tm+34pNotLCyQz+cJBALE43E6Ozt59913efLJJ3nt
+      tdd44IEHGBsb4/z58x95nHw+T6lU2twlJJ1OY7Vaa80FKjMxOUMsGmFifp2BwUGyyTmmlvO7
+      zgW6Mj7Psa5GfJ56eRiTtB1tbW0MDQ1x8eJFNE2jra0NIQQvv/wya2trvP766zXVP7/fj9//
+      vQEWr1XHWHi/xo2xLE7OP/QgAB9k5zhbOmncZbaCYZo8/+YEv/Tcnff6kepTPB5nZmaGJ598
+      kkQiQbFYxGq1cubMGebn52lra2NhYeG27xfCRORXMNfjmCtjmKsTmLklRCmDyC/f3WS4r78x
+      yj++M8kf/cpndlsE6S7L5XKMjIwQi8UYHR3lE5/4BFeuXCEQCDA3N8fjjz/OhQsXePLJJ3e8
+      H+sHVfUHM4SFXgEF0MuYqWmM5Y2KLtKziGoBxe5DDfWiBruwRPpRPI1gdYJRubvDoE+cbKe/
+      PXw3iyDtEY/Hg8vlIhAIkM/nAZiensYwDBobG5mdnWVoaIjTp08TDu/sb75VaryoFil+819j
+      rk5iiRxB8behBruxHv0MakMb2Dwo6m3yyjTH/rQAi4uLCCE2N1zq6Ojg4sWLxGIx4vE4jY2N
+      hMNh3G73rrYmlO5saGiISCTC+Pg4wWCQYDDI1atX6erqYmpqio6ODhwOB+3tu0s9z2QyvPzy
+      y3R2drK6ukpzczOVSgXTNFlYWKC7u5tqtUpXV9ctz2LbCSEExuybVC79L7T+H0Frewg12Lnt
+      4+xLC+D3+4nH48zNzeHxeIhGoyQSCWKxGOFwmGKxyDvvvENjY+PmM7Ck/dHS0kIulyMSieDz
+      +VAUhVwuR7lcplAo0NbWxuzs7K7P4/P5ePbZZzd/NgwDpZJFcfg4derUro//YWZhjfKrv4di
+      seP4kT9Ede/8wYX7EgDz8/OMjo5uDo2ur6/jdDqpVqu4XC6OHz/O8PAw8Xh8P04vfUg8HqdQ
+      KJBOp2lubt4cDbHZbPh8PiYmJlhZWaGvr2/PVt+Z+WWMqVcpv/YHWI88g+3cz6H6d7/3qBCC
+      6vW/Rh/5O2wP/xKWtod2XeZDuSJM2h+GYaCqtT1LbbvM/ApG/DX0iQsIo4rW9SRqqAdRylAd
+      /lsUiw3rsX+Cpf1hFMv2t7kxC2uUX/9DVG8M24O/gKLtTcawDIA6U7nyZfTJl7EOPrcxMuJv
+      RbHv7G8nyln06Yvo4y8hSim0zifQej+J4o2iKN/LshFCIFIzVEe+gTH/LpbWc1gHfnSjk3qn
+      cwgTffjrVIf+Btv5X0TrfHxHZb0dGQB1pHrzW1SvfgXtyDOgsDEmvjYFwkRxBVGDPajhXizB
+      HhR/C4p66x2yqOQ/VOnTaB2PovV8AsXX9H2V/naEXkGPv4Y+/HVAYD32Y1g6H9uyVTBWJyi/
+      9j+wRAaxnf+XKNa9nyyVAVAHhBBUr/w5xsJVHJ/6LRSb+/v+H0YFUVzDXJvCWBrGXJ9C5JKg
+      aqjeGGqgE1FY25hAKq6jdTyC1vs0iq+lpkp/uzKJ9BzV4a+hz76J1vog1mM/htrQhqgWqVz+
+      U4yFq9g/9u9Qg937tjtIzU+JHB+fojPWwPBsipDPhqJquL0NNHhdMgAOMWFUKb/+B6BYsD/2
+      yyiW2iahhDChWsLMJjDmr6Df+Ab2j/86aqjv9uPqOy2jXsGY/Q7Vob/FzC1BJY/t7BfRBp/b
+      83P9oJpbgIXFBfx2jcnEEl5fA7nUClWLh5P93Qf2lEhpm6pFKhd+GzV2Eu3UF9iYLj3cjPFv
+      oWgO1M4nDuR8NW+NuJZcxgyF0FSNaCxKg9tBYjW7LxtjSbtn5pKUXvgPWE9+bqNjuo1biMXF
+      Rebm5nA6nSwsLPD000/z4osv0t3dzfDwMG63m3Q6zXPPPbfrv/v6+joej4dUKrUxQ9z7KWZm
+      ZmgTgpmZGSKRCDabDYfDsavz3E5tyXCKxrGTJzd++G4CnCMYxh+UaQyHkbEyRvnC72J/4ktY
+      mrY/CRWLxVhdXcVqtXLy5EkURaGzs5NoNMrVq1fJZrMIITBNc9dlTSQShMNhRkZG+NjHPsbQ
+      0BBDQ0NcuXKFzs5ObDYb5XKZ3t79WSsuL9v3GX36EpW3/wTHp/4TaqBjR8eYnZ1lZWUFr9dL
+      oVBgbW2NZDKJqqp0dXXR3d3N1NTUnjxkvFgsMjs7SzqdJpFI0NTUxNjYGIFAgNHRUTweD4lE
+      gp6enn3pCMtRoPuEEAJ95OtUb35ro/K7dp4ecJByuRyKoqDrOrlcbjM3zOl0UiwWgY3P5na7
+      ZQBIWxOmQeXtP0FkEtg//u9RtP25X74fHYpF8dLOiWqR8oXfAVPH/vRvyMq/TbIPcA/T596m
+      +u7/w9L9FNZj/1RuJb8DsgW4BwkhqI4+T+nvfxU1ekxW/l2QLcA9xlibovza72MJduP+mb8B
+      u19W/l2QAXCPEOXsRn5McgT74/8KNdRHuVzmH772Nfr6+mhra+OFF15gYGCAkZERBgYGSCQS
+      PPPMM3e76IdaTbdAQojvTn4YJJdXKOYyFEoVKpXqfpev7gkhqN78FsVv/ApqoAvns3+MJXwE
+      RVGw2+00NjaSTCY3F7jYbDZcLheapnHmzJm7XfxDr8YWQLC4tIQvY8eolhlerGJFJxCK0hIL
+      Y5omhmHsb0nrkEjPUHn9f4K3FdsP/XcUZwBTAN/9roUQ2Gw2WltbmZ+fx+v1YrfbaW5uplQq
+      MTc3Ryh0b8wH3C01Z4O+d+U9/D4fpWKBpp5+8ouT3Fwq89TDp+Q8wB4TlTyVy3+KuXQd++Nf
+      Qg33cS8kst2LagwAQaVcxqJZMYWJVdMQAgxDx2q11l0AjI6OUq1WGRwc5M0336S9vZ3x8XG6
+      urqIx+M89thjWCzbT+MVQqBPXKB65ctYB59FG3h239OB612NyXAK9s1sPMt3fweqWp97eS4u
+      LhIMBqlWq6RSKebm5ja26TCMHY3ICFNHv/FN9IkLKN5mHD/8+6iu4D6UXPpBchRoByKRCMlk
+      kmQyid/vJxAIbCaPLS8vU6lUcDq3Xr4nhEAU1zGXRzGSw5jJYUR+FTOTwPHJ38TS8Zgc1jxA
+      Mhdoh0zTpFgs3nEhkFlcx1y5iZkcxli8jiilUOxe1FAflthx1MgAijOw8WLVIiv/AZMBsIdE
+      tYgx+xbVsedBsSDSs2BzYwkfQY2dwBI9juIKoVhubXiHhobIZDI8/PDDPP/889hsNjRN23yy
+      ycc//vE92VFN+n739S3QjRs3aG9vx+l0cuXKFTweD4VCAcMwCAQCdHd37/jYm7cyi+9jLFzF
+      SN4AYaL6mlE0O7YHfhbF1wyqtaar+traGgsLC5w6dQpVVdF1nWAwyOzsLIVCgZmZGfr7+3dc
+      Xmlr920LUCwWeemllzh//jzFYpFr165x7tw53n//fTo6OkilUjz00EM1H0+YOubaFObSEEbi
+      PcxUHMURQI0ew9J0Cktj/8ZGrDu8hSkWi4yNjWGz2bDb7aiqyvLyMj09PUxPTzM4OIjdLh8f
+      u9fu2xagVCpRqVSYnJzE4/GQTqeZn59HURTW19dR1dtPggu9gsgtok+9hpmaxswuQrWI6mtG
+      jZ3A9sC/QPG31rzDQi2cTucte2h2dnYCEAzKEaH9cihbgLGxMYaGhnjuued44YUXOHXqFG++
+      +SaNjY0sLS3xzDPP1LwLRS6X23I1kTCqiHwSMz2HuT6NmZpBpGYQ5SxYbKjeKKgaijuC9eTn
+      UBwBlI8IGunedChbAKfTidPpxDRN1tfXef3111ldXaVUKnHy5MmaRl8+4LZrmMs3qFz5MorV
+      hcgvIyp5EAaKJ4ba0Iba0Ib1yDOoDR0bD05Qtc2AGRsbw5ep0uiAm2NjRKNRFhYWCIVCmKZJ
+      NCqfbHkv21YLYJQy3IgniQTcqDYnDpsNj3vvN8aampqiUqkAoGkaPp8Pj8eDYRhMTk5y4sSJ
+      rR+WUM5irk5gLI9iJkcw0zOgqKiBTjB1LJ1PYGk+jWL3fV8lvx0hBF/96lf59Kc/TTabZWlp
+      CU3TiMfjaJpGsVjkc5/73J59bungbasFKGay6AhKpTKZpSQWVwNHu9swTRNd1/esUG1tW2+a
+      arVaGRwYoLoW37iar44jVkYxl28gsotgc0OgCzUygHr6Z9D8G6MwH2YCfCih7KMIIWhqauLy
+      5cu0trYyOztLS0sLpVKJY8eOMTs7u6efWzp422oBirk08fg0rb39lNYWmV4pcjc9cxUAAAXP
+      SURBVO7k0QMdBarefJHS3/8qWtfHUBsHsDQOoDYObkwm1XBV3w4hBNVqlVKpBIDD4cBisaDr
+      +uaGYDvJ+ZEOj0PZCd6KECbV9/4CY+4dbA//Emr4qJw1lXbtUHaCf5Ao5yi9/F9Q3REcn/29
+      PR1+lOrboQ8AY22K8oXfwXr6J9F6npZXfWlPHdoAEEJgTL1K5fKfYX/6N7AEu+52kaT70KEM
+      AGHoVL7zvzEz8zif/cONYUtJ2geHbmrTLKxR+vt/g+JswPFD/0VWfmlfHaoWwEiOUP7272J7
+      7FewtDwg7/elfbetABCmwWJyBb/bjqk5sVoU7LY7P/KyWq3yxhtvEIvFmJ6eprm5GV3XN7ft
+      EEKgD/8t1dHncXzmv6H6mnf2aSRpm7YVAEsL86imznB8DZuo4g820tEau/NJNA2r1YrNZiMS
+      iVCpVBgZGeH06dNglCm/+vugqDif/aM9e/6rJNViW30Am2YhuZqmr6+HkNfG5OxiTe8rlUqU
+      SiWq1So+n49oNEpLSwv6xAUKf/GTWGLHsT/1a7LySwduWzPBQgiEEJv35kIIVFXd8UywPv8u
+      RuIK9gd/YdvvlaS9oIgN5HK5HR+kUCjgcDg+cpHJVj4IqO2+zzTNQ/uegzzXTt7zwfVuuwMM
+      B/mZFEXZVvl2+j0IITb6AIqi7DqXZyfv32kA7MROK/NhPtf9+pm2GwA7sVn39vUsd6AoyuaX
+      KoTJ7tPybu/DfzyxB083rOVcH3zJ+30euL8+0+Yttrl/deKDundw8wBCMHF9iFBHlPGJBZya
+      Qqlcxu72UKnotDY2UKiYOF1uopHdbehayKZYWMmgF9MYika1XMLpdlPMZgk1tVIt5FGtGo3R
+      Jpz23SXWLU7HUd0u5ucSOKwqpbJJqLGRteVFYs2tFHN5bG4XTdEo6i4uatVSgYmZBRwWnUzB
+      QFWqaHYvPmuJHEHslFAUaAg14vPsbvuU2Rs3cDeHmZxMYFc2Hofq8PqwWGwE3BqZQgWH00Ws
+      McKuLtRmlevD44QanCSXU2hOO7oONiqYVjd+p4ZQVFweP6GAf+fnEYKZ+DjFUplcUcfpsFMt
+      F7F7/AfYAigKkXAIqyeAR9PJl3VsmoIpFIQQFIol8rks1UqF3V7LXN4G3A4rkUiEbK5IJOgj
+      lU4RjsQoFHKUCkXyxSLVPVjMEgyFsdjshHxOdMWOXa1SrFSJtnaiihL5TI5ytYph7O5TWR0u
+      GrwuIpFG8rkM4XCE9PoKC8k1UuvrlMtlstkc1eruP1MoHMbi8BB0qlgcHqgWSKVzrK4sk84X
+      KGSzVCoVzN1enlUr4VADoXCESiFDQzBCNpvZaG3MKoVihUwmS7Wqs9uGQNNstDaFCUVbyOXy
+      NDcGKBrqAa4HEILp+AQ2t59KsURLc4S5xAqNIS/ruQrN0TDpdBq/3w+Ksqu9kLOpVRaW12nw
+      ebC5fBTTqwQam1hfXiISa0IxquSqOj6Xa9f3movzM5SFhsXUiUSjLCWXCfhcJJLrdHV1Us1l
+      sfr8WJXtdzw/rFLMMjWTIBgMIlQrFqOI1R3A59QoVgQOu7b5/e32M83PTCGsLsxKmVgswuJy
+      ipZokERyjdbmGNl0GrfPj7rLz4RRYWx8ikAwSFkX+J0WSqYVq1lE11yE/J49qRNCCKanxnH6
+      whjlPI2xGIuLyzQGvffOghhJ2g+HLhlOkg6SDADpvmbeYXTsUGWDSve/f/jGX2NoXo4N9GNV
+      qqzOzJLxNXO6uwkFhUopQ7FsUhEWLNUcbl+Q5NoqmqoRaXAhLDYWFpdJLS/Q1HeM+bErVAol
+      2k+cR1SrTN24ytkHH2Y9W6S3s5nRGzdQLRaCjS1EArfepssAkA5UIByjUCwyl5hH0wukk6t4
+      FcGL31mlzaeynlqjs7WJ5VyJ6ZFhGuxOjHArdqfCjWsJGpwg3I3MrpqcejzM4rSb3pCXy8Oj
+      ZFcW6Wpv5cbVt0jhobMpRLFUpFzW8TZEtizP/wepuSYJREUxGwAAAABJRU5ErkJggg==
+    </thumbnail>
+  </thumbnails>
+</workbook>
